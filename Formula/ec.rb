@@ -6,8 +6,9 @@ class Ec < Formula
   license "MIT"
 
   depends_on "go" => :build
+
   def install
-    ldflags = "-s -w -X main.version=#{version}"
+    ldflags = "-s -w -X main.version=v#{version}"
     system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/ec"
   end
 
