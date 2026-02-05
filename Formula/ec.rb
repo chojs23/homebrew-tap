@@ -2,7 +2,7 @@ class Ec < Formula
   desc "TUI native Git mergetool with 3 pane"
   homepage "https://github.com/chojs23/ec"
   url "https://github.com/chojs23/ec/archive/refs/tags/v0.1.4-test.tar.gz"
-  sha256 "72f8293ef8a9c88d591c2b212f1eca09efef517f2997e3ac9ffee331177e7a01"
+  sha256 "9d788e598f41c5970bd884fb21f6a0c16777d79bf47770e2855a2511a93a8c81"
   license "MIT"
 
   depends_on "go" => :build
