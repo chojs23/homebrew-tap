@@ -1,8 +1,8 @@
 class ImSwitch < Formula
   desc "CLI to switch keyboard input methods for the im-switch.nvim plugin"
   homepage "https://github.com/chojs23/im-switch.nvim"
-  url "https://github.com/chojs23/im-switch.nvim/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "730ae2b0fea5364dabec59c488fbe0ad325ae7845dc3b96e9bde46e679eb8c2e"
+  url "https://github.com/chojs23/im-switch.nvim/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "19db1af15ceecfad3af3a6058dad75da7a04f69dc07d64fa60d3d9e560e59dc0"
   license "MIT"
 
   depends_on "go" => :build
